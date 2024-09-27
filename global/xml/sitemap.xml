@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sitemap>
+    
+
+	<!-- Main Course content -->
+    <module title="Theft at the Temple" visible="true" icon="" bg="" pre="01:" num="01" modID="1" mID="1">
+        <lesson title="Theft at the Temple Pretest" num="01.00" time="50" points="1" lID="0">
+            <page href="../../module01/lesson00/01_00_01.htm" pId="1" title="01.00 Welcome"/>
+            <page href="../../module01/lesson00/01_00_02.htm" pId="2" title="01.00 Page 1"/>
+            <page href="../../module01/lesson00/01_00_03.htm" pId="3" title="01.00 Page 2"/>
+            <page href="../../module01/lesson00/01_00_04.htm" pId="4" title="01.00 Page 3"/>
+        </lesson>
+        <lesson title="Something is Missing" num="01.01" time="85" points="10" lID="1">
+			<page href="../../module01/lesson01/01_01_01.htm" pId="1" title="01.01 Page 01"/>
+			<page href="../../module01/lesson01/01_01_02.htm" pId="2" title="01.01 Page 02"/>
+            <page href="../../module01/lesson01/01_01_03.htm" pId="3" title="01.01 Page 03"/>
+            <page href="../../module01/lesson01/01_01_05.htm" pId="4" title="01.01 Page 04"/>
+            <page href="../../module01/lesson01/01_01_06.htm" pId="5" title="01.01 Page 05"/>
+            <page href="../../module01/lesson01/01_01_07.htm" pId="6" title="01.01 Page 06"/>
+        </lesson>
+         <lesson title="Theft at the Temple Workshop" num="01.02" time="100" points="100" lID="4">
+			<page href="../../module01/lesson04/01_04_01.htm" pId="1" title="01.04 Page 01"/>
+			<page href="../../module01/lesson04/01_04_02.htm" pId="2" title="01.04 Page 02"/>
+            <page href="../../module01/lesson04/01_04_03.htm" pId="3" title="01.04 Page 03"/>
+            <page href="../../module01/lesson04/01_04_04.htm" pId="4" title="01.04 Page 04"/>
+        </lesson>
+         <lesson title="Theft at the Temple Exam" num="01.03" time="80" points="104" lID="9">
+			<page href="../../module01/lesson09/01_09_01.htm" pId="1" title="01.09 Page 01"/>
+			<page href="../../module01/lesson09/01_09_02.htm" pId="2" title="01.09 Page 02"/>
+            <page href="../../module01/lesson09/01_09_03.htm" pId="3" title="01.09 Page 03"/>
+        </lesson>
+    </module>
+    
+</sitemap>
