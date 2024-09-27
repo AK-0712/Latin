@@ -1,0 +1,58 @@
+.carousel.text-reveal .flip-container {
+    height: 435px;
+}
+
+.carousel.text-reveal textarea {
+    height: 435px;
+}
+
+.flip-container .front {
+    height: 435px;
+}
+
+
+.flip-container .back {
+    height: 435px;
+}
+
+.carousel-inner {
+    margin-bottom: 0;
+}
+
+.image-container {
+    max-width: 100% !important;
+}
+
+.fev_table tr td {
+    vertical-align: middle !important;
+}
+
+.text-responsive p {
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.carousel-inner {
+    padding: 10px;
+}
+.flex_box{
+    display: flex;
+    align-items: flex-end;
+}
+.flex_box .image-container .copyright{
+    line-height: normal;
+}
+.mt-2 p{
+    line-height: normal;
+}
+@media (max-width: 1026px) and (min-width: 903px) {
+    .text-responsive p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 903px) and (min-width: 730px) {
+    .text-responsive p {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,59 @@
+.fev_tab .tabs-block{
+    width: 18% !important;
+}
+.fev_tab .panel-block{
+    width: 82% !important;
+} 
+.fev_tab .panel{
+    padding-left:5px !important;
+    padding-right:5px !important
+}
+.fev_tab .col-md-4{
+    padding-left:5px;
+    padding-right:10px
+}
+.fev_tab.div.panel{
+    padding-left:5px !important;
+    padding-right:5px !important
+}
+.fev_tab .col-md-8{
+    padding-left:0px;
+    padding-right:0px
+}
+.fev_tab .card .card-content{
+    padding: 10px !important;
+}
+.fev_tab .table{
+    margin-bottom: 0px !important;
+}
+
+
+
+@media only screen and (min-width: 992px){
+    .col-md-4 {
+        width: 31%;
+    }
+    .col-md-8 {
+        width: 69%;
+    }
+    .fev_tab  .col-md-4 frame{
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width: 990px) {
+    .fev_tab .frame{
+        display: none;
+    }
+
+    .fev_responsive_table{
+        font-size: 13px;  
+    }
+    .fev_tab .tabs-block{
+        width: 23% !important;
+    }
+    .fev_tab .panel-block{
+        width: 77% !important;
+    } 
+}
