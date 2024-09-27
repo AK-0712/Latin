@@ -1,0 +1,251 @@
+.fev_imgClick .activityHolder {
+    position: relative;
+    width: 100%;
+}
+
+.fev_imgClick .butnholder,
+.fev_imgClick .popupHolder {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.fev_imgClick .popupHolder {
+    z-index: 3;
+}
+
+.fev_imgClick .imgclickbtn {
+   /*  background: transparent;
+    /* border: 1px solid #fff;
+    border: 3px solid #000;  */
+    background-image: url(../intmedia/marker_01.png);
+    padding: 0;
+    margin: 0;
+   /*  width: 50px;
+    height: 50px; */
+    height: 28px;
+    width: 28px;
+    background-image: url(../intmedia/hotspot_interactive.svg); 
+    height: 31px;
+    width: 31px;
+    opacity: 0.9;
+    transition: 280ms ease opacity;
+    border-radius: 50%;
+    background-color: #ab4e2b;
+    display: block;
+    position: absolute;
+}
+
+
+.fev_imgClick .popupHolder {
+    display: none
+}
+
+.fev_imgClick .popupHolder,
+.fev_imgClick .poup_bgblack {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.fev_imgClick .poup_bgblack {
+    background: rgba(0, 0, 0, .5);
+}
+
+.fev_imgClick .closeit {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: block;
+    color: #ffffff;
+    background: #7F222F;
+    padding: 2px 4px;
+    line-height: normal;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border: none;
+    z-index: 2;
+}
+
+.fev_imgClick .popupContent {
+    position: absolute;
+    top: 25px;
+    width: 97%;
+    height: 89%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.fev_imgClick .popupwin {
+    /* display: none; */
+    width: 90%;
+    height: 80%;
+    position: relative;
+    padding: 10px;
+    background-color: #f1eee5;
+    background-image: url(../intmedia/dialog_texture_top.png), url(../intmedia/dialog_texture_bot.png);
+    background-position: -12px, bottom right;
+    background-repeat: no-repeat, no-repeat;
+   /*  border: 4px #7d4d24 solid; */
+    line-height: normal;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+}
+.fev_imgClick .imgclass {
+    border: 3px solid #333;
+    border-radius: 4px;
+    margin-top: 3px;
+}
+.fev_imgClick .image-container.frame {
+    margin: 0px 15px 0px 0px;
+   
+}
+.fev_imgClick .image-container.bg_img{
+    border:none;
+    background: #f5e4d4;
+    margin: 0px;
+    padding: 0px;
+}
+.fev_imgClick .image-container.bg_img img{
+    box-shadow: none; 
+    border:none
+}
+.fev_imgClick .image-container .copyright{
+   background: transparent;
+    margin: 0px auto;
+    padding: 7px 0px;
+}
+.fev_imgClick a.dlink{
+    position: relative;
+    z-index: 2;
+}
+.il_interactive {   
+    background-color: transparent !important;
+    border: 2px solid #ffffff !important;
+    /* padding: 20px !important; */
+    box-shadow: 3px 3px 3px 0 rgb(18 17 17 / 20%);
+    background: #f5e4d4;
+}
+.il_interactive #custom_interactive{
+    border:none
+}
+.fevActivityHolder button.fev_questionmark {
+    position: absolute;
+    right: 7px;    
+    font-weight: bold;
+    z-index: 1;
+    text-shadow: none;
+    top: 7px;   
+    font-size: 14px;
+    background: linear-gradient(180deg, #7F222F 0%, #3E0D13 100%);
+    box-shadow: 0 4px 6px 0 rgba(121, 7, 7, 0.30);
+    /* color: white !important; */
+    background: white;
+    color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border: 2px solid #75112F;
+}
+
+
+.fevActivityHolder .fev_instructionsholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+}
+.fev_modal-content{
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    box-shadow: 0 3px 9px rgb(0 0 0 / 50%);
+    background-clip: padding-box;
+    outline: none;
+}
+
+.fev_modal-title{
+    margin: 0;
+    line-height: 1.42857143;
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    padding: 1px;
+    border-radius: 33px;
+    text-align: center;
+    color: white;
+}
+
+.fevActivityHolder .fev_modal_holder {
+    position: absolute;
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 40px;
+    border-radius: 5px;
+    overflow: hidden;     
+}
+
+.fevActivityHolder .fev_modal-header {
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    background: linear-gradient(180deg, #7F222F 0%, #3E0D13 100%) !important;
+}
+
+.fevActivityHolder .fev_modal-body {
+    position: relative;
+    padding: 20px;
+    color:#000;
+    font-size: 14px;
+}
+
+.fevActivityHolder .fev_modal-footer {
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+    text-align: right;
+    background-color: #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+}
+
+.fevActivityHolder .fev_modal-footer button.fev_modalbtn {   
+    background-image: none;
+    background: linear-gradient(180deg, #7F222F 0%, #3E0D13 100%);
+    box-shadow: 0 4px 6px 0 rgba(121, 7, 7, 0.30);
+    color: white !important;
+    border: none !important;
+    border-radius: 50px;  
+    white-space: normal;
+    padding: 0 0;
+    width: 52px;
+    height: 32px;
+}
+a:link{  
+    display: inline-block;
+}
+.il_interactive{
+    overflow: visible !important;
+}
+.fevActivityHolder .heading h2 {
+    text-align: center;
+    margin: 0px auto;
+    background: linear-gradient(180deg, #7F222F 0%, #3E0D13 100%);
+    color: white;
+    padding: 10px;
+}
+.fevActivityHolder .popover-title{
+    margin-top: 0px;
+}
+.fevActivityHolder .glossary-deco{
+    background-color: transparent;
+}

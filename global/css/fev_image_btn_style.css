@@ -1,0 +1,270 @@
+.fev_imgBtnClick .activityHolder {
+    position: relative;
+    width: 100%;
+}
+
+.fev_imgBtnClick .butnContainer,
+.fev_imgBtnClick .fev_popupHolder {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.fev_imgBtnClick .fev_popupHolder {
+    z-index: 3;
+}
+
+.fev_imgBtnClick .clickbtn {
+    padding: 0;
+    margin: 0;
+    width: 140px;
+    height: 80px;
+    /*  transition: 280ms ease opacity; */
+    transition: all .3s;
+    border-radius: 5px;
+    border: 10px solid #75112fba;
+    background-color: #000;    
+    position: absolute;
+    /* box-shadow: 1px 2px 5px #1c1a1a; */
+    box-shadow: none;
+}
+/* .fev_imgBtnClick .clickbtn:hover,.fev_imgBtnClick .clickbtn:focus{    
+    /* box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    box-shadow: 1px 2px 5px #1c1a1a;
+    /* transform: scale(1.07) rotate(-1deg);
+    transform: translateY(-2px); 
+    transform: scale(1.09) translateY(-2px)
+}
+ */
+.fev_imgBtnClick .fev_popupHolder {
+    display: none
+}
+
+.fev_imgBtnClick .fev_poup_bgblack {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.fev_imgBtnClick .fev_popupHolder{
+    position: absolute;
+    top: 10px;
+    left: 164px;
+    height: 460px;
+    width: 400px;
+}
+
+.fev_imgBtnClick .fev_poup_bgblack {
+    background: rgba(0, 0, 0, 0);
+}
+
+.fev_imgBtnClick .fev_closeit {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: block;
+    color: #ffffff;
+    background: #7F222F;
+    padding: 2px 4px;
+    line-height: normal;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border: none;
+    z-index: 2;    
+}
+
+.fev_imgBtnClick .fev_popupContent {
+    /* position: absolute;
+    top: 25px;
+    width: 97%;
+    height: 89%;
+    box-sizing: border-box; */
+    padding: 8px;
+    margin-top: 20px;
+}
+
+.fev_imgBtnClick .fev_popupwin {
+    /* display: none; */
+    width: 100%;
+    height: auto;
+    position: absolute;    
+    background-color: #454545;  
+    padding: 0px;   
+    margin: 0px auto;  
+    border : 2px solid; 
+   
+}
+
+.fev_imgBtnClick .image-container.frame {
+    margin: 0px auto;
+    padding: 0px;
+    border: 2px solid #fff;
+    background-color: transparent;
+
+}
+
+.fev_imgBtnClick .image-container.bg_img {
+    border: none;
+    background: #f5e4d4;
+    margin: 0px;
+    padding: 0px;
+}
+
+.fev_imgBtnClick .image-container.bg_img img {
+    box-shadow: none;
+    border: none
+}
+
+.fev_imgBtnClick .image-container .copyright {
+    background: transparent;
+    margin: 0px auto;
+    padding: 5px 0px;    
+}
+.fev_imgBtnClick .fev_popupContent .col-sm-6 .image-container .copyright {    
+    color:#ffffff;
+}
+
+.fev_imgBtnClick a.dlink {
+    position: relative;
+    z-index: 2;
+}
+
+.il_interactive {
+    background-color: transparent !important;
+    border: 2px solid #ffffff !important;
+    /* padding: 20px !important; */
+    box-shadow: 3px 3px 3px 0 rgb(18 17 17 / 20%);
+    background: #f5e4d4;
+}
+
+.il_interactive #custom_interactive {
+    border: none
+}
+
+.fev_Activity_Holder button.fev_question_mark {
+    position: absolute;
+    right: 5px;
+    font-weight: bold;
+    z-index: 1;
+    text-shadow: none;
+    top: 5px;
+    font-size: 14px;
+    background: linear-gradient(180deg, #7F222F 0%, #3E0D13 100%);
+    box-shadow: 0 4px 6px 0 rgba(121, 7, 7, 0.30);
+    color: white !important;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+
+.fev_imgBtnClick .fev_instructionsholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+}
+
+.fev_imgBtnClick .fev_modal-content {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 6px;
+    box-shadow: 0 3px 9px rgb(0 0 0 / 50%);
+    background-clip: padding-box;
+    outline: none;
+}
+
+.fev_imgBtnClick .fev_modal-title {
+    margin: 0;
+    line-height: 1.42857143;
+    background-size: cover;
+    padding: 1px;
+    border-radius: 33px;
+    text-align: center;
+    color: white;
+}
+
+.fev_imgBtnClick .fev_modal_holder {
+    position: absolute;
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 40px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.fev_imgBtnClick .fev_modal-header {
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    background: linear-gradient(180deg, #7F222F 0%, #3E0D13 100%) !important;
+}
+
+.fev_imgBtnClick .fev_modal-body {
+    position: relative;
+    padding: 20px;
+    color: #000;
+    font-size: 14px;
+}
+
+.fev_imgBtnClick .fev_modal-footer {
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+    text-align: right;
+    background-color: #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+}
+
+.fev_imgBtnClick .fev_modal-footer button.fev_modalbtn {
+    background-image: none;
+    background: linear-gradient(180deg, #7F222F 0%, #3E0D13 100%);
+    box-shadow: 0 4px 6px 0 rgba(121, 7, 7, 0.30);
+    color: white !important;
+    border: none !important;
+    border-radius: 50px;
+    white-space: normal;
+    padding: 0 0;
+    width: 52px;
+    height: 32px;
+}
+
+a:link {
+    display: inline-block;
+}
+.il_interactive {
+    overflow: visible !important;
+}
+.fev_image_show {
+    width: 175px;
+    box-shadow: none;
+}
+.fev_imgBtnClick .fev_popupContent .col-sm-6{
+    padding:3px
+}
+.fev_imgBtnClick .fev_popupContent p{
+    color:#ffffff;
+    text-align: center;
+}
+.fev_imgBtnClick .fev_popupContent:before{
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border: 15px solid transparent;
+    /* border-right: 35px solid #454545;
+    left: -19px;
+    top: 13px;
+    left: -48px;
+    top: 20px; */
+}

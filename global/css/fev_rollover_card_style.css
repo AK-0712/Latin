@@ -1,0 +1,109 @@
+.grid figure figcaption {
+  top: -17px;
+  padding: 0px 12px;
+}
+
+figcaption.spaces {
+  top: 0px !important;
+}
+
+.col-sm-6 .effect-sarah {
+  width: 100%
+    /* height: 581px; */
+}
+
+/* ak */
+figure.effect-sarah p {
+  padding: 0px 0px;
+  color: white;
+  font-size: 14px;
+}
+
+figure.effect-sarah li {
+  padding: 0px;
+  color: white;
+  font-size: 14px;
+}
+
+.grid figure figcaption,
+.grid figure figcaption>a {
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+
+.grid figure figcaption {
+  padding: 1px 12px;
+  color: white;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.space {
+  margin-top: 20px;
+}
+
+figcaption p a:hover,
+figcaption p a:focus {
+  color: #4d579b;
+}
+
+.popover {
+  padding: 0px !important;
+  padding-top: 4px !important;
+}
+
+.grid figure figcaption .popover .popover-title {
+  color: #151515
+}
+
+figure.effect-sarah div {
+  padding: 0px
+}
+
+span.copyright {
+  margin-top: 0px;
+}
+
+span.caption {
+  font-size: 16px;
+}
+
+figcaption p a:hover,
+figcaption p a:focus {
+  color: #7591d3;
+}
+
+.white-text {
+  color: #FFFFFF !important;
+}
+
+@media only screen and (max-width: 960px) {
+
+  .grid figure p,
+  .grid figure ul,
+  .grid figure ol,
+  figure.effect-sarah li {
+    font-size: 12px;
+  }
+  .grid figure ul {
+    padding-left: 20px;
+    margin-top: 5px;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+
+  .grid figure p,
+  .grid figure ul,
+  .grid figure ol,
+  figure.effect-sarah li {
+    font-size: 10px;
+    padding: 0px;
+  }
+
+  .grid figure ul {
+    padding-left: 20px;
+    margin-top: 5px;
+  }
+}

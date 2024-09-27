@@ -1,0 +1,295 @@
+.fev_H_RevealBtn .btnHolder {
+    /*margin-top: 159px;*/
+    margin-top: 63px;
+    margin-left: 15px;
+}
+
+.jCustom {
+    position: relative;
+    width: 800px !important;
+    background-color: transparent;
+    box-shadow: 0 8px 15px 0 rgba(160, 132, 69, 0.20);
+    border-radius: 5px;
+    border:3px solid #CF9893;
+    background-color: white;
+    border: 3px solid #eeeeef !important;
+    
+}
+
+.fev_H_RevealBtn .fevClickbtn {
+    position: relative;
+    display: block;
+    width: 180px;
+    margin-bottom: 20px;
+    padding: 8px;
+    background-color: #2eb5f3;
+    color: #ffffff;
+    border: 2px solid transparent;
+    box-shadow: 1px 2px 2px #868585;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+    /*top: -143px;*/
+}
+
+.fev_H_RevealBtn .popholder>h3 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.fev_H_RevealBtn .fevClickbtn.slectedbtn {
+    border: 2px solid #522607;
+    background-color: #d4d4d4 !important;
+    color:#000000
+}
+
+.fev_H_RevealBtn .fevClickbtn:hover {
+    background-color: #d4d4d4 !important;
+    Color:#000000
+}
+
+.fev_H_RevealBtn .popholder {
+    position: absolute;
+    top: 67px;
+    background-color: #e0e0e0;
+    width: 562px;
+    height: auto;
+    margin-left: 198px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #c7c7c7;
+
+
+}
+.fevClickbtn#btn_1{
+    background-color: #0A628A;
+}
+.fevClickbtn#btn_2 {
+    /* background-color: #ffb445; */
+    background-color: #7D32C3;
+}
+
+.fevClickbtn#btn_3 {
+    background-color: #3B6808;
+}
+
+.fevClickbtn#btn_4 {
+    background-color: #6F560B;
+}
+
+.fevClickbtn#btn_5 {
+    background-color: #A13830
+}
+
+.fev_H_RevealBtn .displaypopup a._tip {
+    /* background: #fff; */
+    color: #006A7A;
+}
+
+.fev_H_RevealBtn .displaypopup[style] a._tip {
+    background: #d5b9ef;
+    color: #005670;
+}
+
+@media only screen and (max-width: 930px) {
+    .fev_H_RevealBtn .fevClickbtn {
+        display: inline-block;
+        width: auto;
+        margin: 0 4px;
+    }
+    .fev_H_RevealBtn .popholder {
+        width: 650px;
+        margin-left: 0;
+        margin-top: 60px;
+    }
+    .fev_H_RevealBtn .btnHolder {        
+        margin: 0px auto;
+        display: flex;
+        justify-content: center;      
+        margin-top: 20px;
+       
+    }
+    .jCustom,div#custom_interactive {       
+        width: 700px !important;
+        height: 465px !important;
+        margin:0px auto
+    }   
+    div.ilShell{
+        margin-left: -8%;
+    }
+}
+
+
+.slide-data {
+    font-family: 'Futura', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    display: block;
+    margin: 5px;
+    padding: 7px 5px 4px;
+    color: #ffffff;
+    text-align: center;
+    /*text-shadow: 2px 2px 5px rgb(0 0 0 / 30%);*/
+    /* background: #554b54; */
+    background: linear-gradient(180deg, #7F222F 0%, #3E0D13 100%);
+    border: 1px solid rgba(248, 202, 255, 0.74);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.ans {
+    border-radius: 6px;
+    /* background-color: #dee0e3; */
+    color: black;
+    padding: 8px;
+    margin-bottom: 0px;
+}
+
+.ques_holder {
+    /* margin: 8px 0px; */
+    /* border-radius: 10px; */
+    /* background-color: #fff; */
+    padding: 6px;
+    /* border-top: 1px solid #c0c0c0; */
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.ilTextVersion {
+    padding: 10px 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    border: 3px solid #eeeeef;
+    background: white;
+}
+
+.show-answer-btn {
+    border: none;
+    font-size: 14px;
+    width: 98%;
+}
+
+.format-line1 {
+    padding-left: 14%;
+}
+
+.format-line2 {
+    padding-left: 11%;
+}
+
+.format-line3 {
+    padding-left: 6%;
+}
+
+div#custom_interactive {
+    height: 400px;
+    border:none;
+}
+
+.slide-data:hover,
+.slide-data:focus {
+    background: linear-gradient(180deg, #FFD976 0%, #FFCB66 100%) !important;
+    color: #454545;
+    border: 1px solid #FFD976;
+}
+
+.fev_H_RevealBtn .heading h2{
+    text-align: center;
+    margin: 0px auto;
+    background: linear-gradient(180deg, #7F222F 0%, #3E0D13 100%);
+    color: white;
+    padding: 10px;
+}
+.fev_H_RevealBtn button.fev_questionmark {
+    position: absolute;
+    right: 7px;    
+    font-weight: bold;
+    z-index: 1;
+    text-shadow: none;
+    top: 7px;   
+    font-size: 14px;
+    /* background: linear-gradient(180deg, #7F222F 0%, #3E0D13 100%); */   
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background: white;
+    color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border: 2px solid #75112F;
+}
+.fev_H_RevealBtn .fev_instructionsholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+}
+.fev_H_RevealBtn .fev_modal-content{
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    box-shadow: 0 3px 9px rgb(0 0 0 / 50%);
+    background-clip: padding-box;
+    outline: none;
+}
+
+.fev_H_RevealBtn .fev_modal-title{
+    margin: 0;
+    line-height: 1.42857143;
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    padding: 1px;
+    border-radius: 33px;
+    text-align: center;
+    color: white;
+}
+
+.fev_H_RevealBtn .fev_modal_holder {
+    position: absolute;
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 40px;
+    border-radius: 5px;
+    overflow: hidden;     
+}
+
+.fev_H_RevealBtn .fev_modal-header {
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    background: linear-gradient(180deg, #7F222F 0%, #3E0D13 100%) !important;
+}
+
+.fev_H_RevealBtn .fev_modal-body {
+    position: relative;
+    padding: 20px;
+    color:#000;
+    font-size: 14px;
+}
+
+.fev_H_RevealBtn .fev_modal-footer {
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+    text-align: right;
+    background-color: #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+}
+
+.fev_H_RevealBtn .fev_modal-footer button.fev_modalbtn {   
+    background-image: none;
+    background: linear-gradient(180deg, #7F222F 0%, #3E0D13 100%);
+    box-shadow: 0 4px 6px 0 rgba(121, 7, 7, 0.30);
+    color: white !important;
+    border: none !important;
+    border-radius: 50px;  
+    white-space: normal;
+    padding: 0 0;
+    width: 52px;
+    height: 32px;
+}

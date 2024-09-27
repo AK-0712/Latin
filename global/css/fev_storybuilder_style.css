@@ -1,0 +1,79 @@
+/* CSS Document */
+.fev_story_bulder .simplicity .holdicon,
+.fev_story_bulder .il_textversion.simplicity .il_int_title,
+.fev_story_bulder .il_textversion .il_int_title,
+.fev_story_bulder .muteToggle {
+    background: transparent;
+    line-height: normal;
+    color: #454545;
+}
+
+.viewport {
+    width: auto !important;
+    height: auto !important;
+    min-height: 550px !important;
+}
+
+.fev_story_bulder .viewport.il_textversion {
+    padding-top: 5px !important;
+}
+
+.fev_story_bulder .simplicity .il_viewport_backgrop {
+    top: 50px;
+}
+
+.fev_story_bulder .il_viewport_backgrop {
+    position: absolute;
+    left: 0;
+    margin: 0;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: auto !important;
+    padding: 0px;
+    margin: 0px;
+}
+
+.fev_story_bulder .textvers {
+    width: 700px;
+}
+
+.fev_story_bulder {
+    max-width: 700px;
+    padding: 0px;
+}
+
+.fev_story_bulder .il_viewport h2.il_int_title {
+    display: block;
+    padding: 12px 0px !important;
+    width: 697px !important;
+}
+.fev_story_bulder .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fev_story_bulder .navbar button.btn{
+    width: 160px !important;
+}
+.fev_story_bulder .narr {
+    width: 380px;
+}
+
+.fev_story_bulder .arrowBalloon.leftSide {
+    left: -3.5%;
+}
+
+.fev_story_bulder .narr.rightSide{
+    right: 24%;
+}
+.fev_story_bulder .narr.leftSide{
+    left: 22%
+}
+.fev_story_bulder .audio,.fev_story_bulder .muteToggle,.fev_story_bulder .muteToggle,
+.fev_story_bulder .audioBar {
+    display: none;
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+}
